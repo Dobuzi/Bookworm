@@ -13,6 +13,10 @@
 		4DDF22C6254AED8900C2C60B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DDF22C5254AED8900C2C60B /* Preview Assets.xcassets */; };
 		4DDF22C8254AED8900C2C60B /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDF22C7254AED8900C2C60B /* Persistence.swift */; };
 		4DDF22CB254AED8A00C2C60B /* Bookworm.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4DDF22C9254AED8A00C2C60B /* Bookworm.xcdatamodeld */; };
+		4DDF22D4254AF68500C2C60B /* AddBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDF22D3254AF68500C2C60B /* AddBookView.swift */; };
+		4DDF22D8254AFBA100C2C60B /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDF22D7254AFBA100C2C60B /* RatingView.swift */; };
+		4DDF22DC254BBE0400C2C60B /* EmojiRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDF22DB254BBE0400C2C60B /* EmojiRatingView.swift */; };
+		4DDF22DF254BC84000C2C60B /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDF22DE254BC84000C2C60B /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		4DDF22C7254AED8900C2C60B /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		4DDF22CA254AED8A00C2C60B /* Bookworm.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Bookworm.xcdatamodel; sourceTree = "<group>"; };
 		4DDF22CC254AED8A00C2C60B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DDF22D3254AF68500C2C60B /* AddBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBookView.swift; sourceTree = "<group>"; };
+		4DDF22D7254AFBA100C2C60B /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+		4DDF22DB254BBE0400C2C60B /* EmojiRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiRatingView.swift; sourceTree = "<group>"; };
+		4DDF22DE254BC84000C2C60B /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +64,8 @@
 		4DDF22BD254AED8800C2C60B /* Bookworm */ = {
 			isa = PBXGroup;
 			children = (
+				4DDF22D6254AFB8900C2C60B /* View */,
 				4DDF22BE254AED8800C2C60B /* BookwormApp.swift */,
-				4DDF22C0254AED8800C2C60B /* ContentView.swift */,
 				4DDF22C2254AED8900C2C60B /* Assets.xcassets */,
 				4DDF22C7254AED8900C2C60B /* Persistence.swift */,
 				4DDF22CC254AED8A00C2C60B /* Info.plist */,
@@ -73,6 +81,18 @@
 				4DDF22C5254AED8900C2C60B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4DDF22D6254AFB8900C2C60B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4DDF22C0254AED8800C2C60B /* ContentView.swift */,
+				4DDF22D3254AF68500C2C60B /* AddBookView.swift */,
+				4DDF22D7254AFBA100C2C60B /* RatingView.swift */,
+				4DDF22DB254BBE0400C2C60B /* EmojiRatingView.swift */,
+				4DDF22DE254BC84000C2C60B /* DetailView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,9 +165,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DDF22C8254AED8900C2C60B /* Persistence.swift in Sources */,
+				4DDF22DF254BC84000C2C60B /* DetailView.swift in Sources */,
 				4DDF22CB254AED8A00C2C60B /* Bookworm.xcdatamodeld in Sources */,
+				4DDF22DC254BBE0400C2C60B /* EmojiRatingView.swift in Sources */,
 				4DDF22C1254AED8800C2C60B /* ContentView.swift in Sources */,
+				4DDF22D8254AFBA100C2C60B /* RatingView.swift in Sources */,
 				4DDF22BF254AED8800C2C60B /* BookwormApp.swift in Sources */,
+				4DDF22D4254AF68500C2C60B /* AddBookView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
